@@ -10,7 +10,7 @@ A robust Inventory Management System built with **Laravel 10** and **MySQL**, de
 
 The system is structured using a clear and efficient database schema:
 
-![Database Diagram](./assets/database_diagram.png)
+![Database Diagram](https://github.com/user-attachments/assets/database_diagram.png)
 
 ## 🌟 Key Features
 

@@ -1,0 +1,37 @@
+DATABASE DIAGRAM PLACEHOLDER
+============================
+
+This file should be replaced with the actual database schema diagram (ERD) for the inventory management system.
+
+The diagram should show the following tables and their relationships:
+
+CORE TABLES:
+- users (id, name, email, username, photo, password)
+- suppliers (id, name, email, phone, address, shopname, type, bank_name, account_holder, account_number, photo)
+- customers (id, name, email, phone, address, type, bank_name, account_holder, account_number, photo)
+
+PRODUCT TABLES:
+- categories (id, category_name)
+- units (id, unit_name)
+- products (id, product_name, category_id, product_code, buying_price, selling_price, stock, unit_id, product_image)
+
+PURCHASE TABLES:
+- purchases (id, purchase_date, purchase_no, supplier_id, purchase_status, created_by, updated_by)
+- purchase_details (purchase_id, product_id, quantity, unitcost, total)
+
+ORDER TABLES:
+- orders (id, customer_id, order_date, order_status, total_products, sub_total, var, total, invoice_no, payment_type, pay, due)
+- order_details (order_id, product_id, quantity, unitcost, total)
+
+RELATIONSHIPS:
+- users -> purchases (1:many via created_by)
+- suppliers -> purchases (1:many via supplier_id)
+- customers -> orders (1:many via customer_id)
+- categories -> products (1:many via category_id)
+- units -> products (1:many via unit_id)
+- purchases -> purchase_details (1:many via purchase_id)
+- products -> purchase_details (1:many via product_id)
+- orders -> order_details (1:many via order_id)
+- products -> order_details (1:many via product_id)
+
+Please replace this file with an actual ERD diagram image (PNG, JPG, or SVG format).
