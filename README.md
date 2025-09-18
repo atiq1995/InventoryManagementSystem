@@ -10,7 +10,7 @@ A robust Inventory Management System built with **Laravel 10** and **MySQL**, de
 
 The system is structured using a clear and efficient database schema:
 
-![Database Diagram](https://github.com/atiq1995/inventory-management-system/assets/71541409/0c7d4163-96f5-4724-8741-4615e52ecf98)
+![Database Diagram](./assets/database_diagram.png)
 
 ## 🌟 Key Features
 
