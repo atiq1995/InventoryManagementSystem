@@ -2,13 +2,15 @@
 
 A robust Inventory Management System built with **Laravel 10** and **MySQL**, designed to streamline your inventory tracking, sales, and purchasing processes.
 
+**Developed by:** Atiq Urrehman
+
 ![Dashboard](https://github.com/user-attachments/assets/1df45f1d-aaed-4299-9b90-35e7f47dc7ea)
 
 ## 🗂️ Database Design
 
 The system is structured using a clear and efficient database schema:
 
-![Database Diagram](https://github.com/fajarghifar/inventory-management-system/assets/71541409/0c7d4163-96f5-4724-8741-4615e52ecf98)
+![Database Diagram](https://github.com/atiq1995/inventory-management-system/assets/71541409/0c7d4163-96f5-4724-8741-4615e52ecf98)
 
 ## 🌟 Key Features
 
@@ -32,7 +34,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/fajarghifar/inventory-management-system
+    git clone 
     ```
 
 2. **Navigate to the project folder:**
@@ -197,8 +199,10 @@ Have ideas to improve the system? Feel free to:
 
 Licensed under the [MIT License](LICENSE).
 
----
+## 👨‍💻 Developer
 
-> Find me on [GitHub](https://github.com/fajarghifar) &nbsp;&middot;&nbsp; [YouTube](https://www.youtube.com/@fajarghifar) &nbsp;&middot;&nbsp; [Instagram](https://instagram.com/fajarghifar) &nbsp;&middot;&nbsp; [LinkedIn](https://www.linkedin.com/in/fajarghifar/)
+**Atiq Urrehman**
+- Email: Atiq-urrehman@hotmail.com
+- GitHub: [@atiq1995](https://github.com/atiq1995)
 
 ---
